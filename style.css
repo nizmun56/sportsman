@@ -1,0 +1,36 @@
+table{font-family: arial;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid blue;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even)
+{
+    background-color: pink;
+}
+tr:nth-child(odd)
+{
+    background-color: white;
+}
+body{
+    background:linear-gradient(to right, red, blue, green);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+}
+P{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+h2{
+    text-align: center;
+}
+li{
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+}
